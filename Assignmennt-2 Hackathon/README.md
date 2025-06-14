@@ -56,3 +56,36 @@ Design a model that performs well even under **noisy** and **incomplete** data c
 ├── README.md
 └── requirements.txt
 
+
+📊 Results
+Achieved competitive accuracy on both public and private leaderboards using only logistic regression.
+
+Learned how important robust preprocessing and feature engineering are when working with real-world noisy datasets.
+
+🧠 Key Takeaways
+Logistic Regression, though simple, can be powerful with the right features.
+
+Time-series data needs careful transformation for use in traditional ML models.
+
+Understanding the data generation process (e.g., NDVI behavior) boosts modeling decisions.
+
+📥 Submission Format
+csv
+Copy
+Edit
+ID,class
+1,water
+2,forest
+3,grass
+...
+🛠 Tech Stack
+Python (Pandas, NumPy, Scikit-learn, Matplotlib)
+
+Jupyter Notebook
+
+Logistic Regression (Multinomial)
+
+🏁 Final Thoughts
+This project helped bridge satellite remote sensing with applied machine learning. Handling missing values, denoising time-series, and working with logistic regression under constraints simulated real-world constraints beautifully.
+
+🔗 Thanks to CAC and GFG for the opportunity!
